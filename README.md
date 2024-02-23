@@ -1,41 +1,31 @@
 ## About
 
-This project was created with [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+This project was based off of with [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+
+I changed it then to update the eslint rules, add prettier, husky, lint-staged, commitizen and conventional commits, as well as tweaking the base structure to be more to my liking.
 
 ## Available Scripts
 
-### `npm run dev`
+### `yarn dev`
 
 Run the server in development mode.
 
-### `npm test`
-
-Run all unit-tests with hot-reloading.
-
-### `npm test -- --testFile="name of test file" (i.e. --testFile=Users).`
-
-Run a single unit-test.
-
-### `npm run test:no-reloading`
-
-Run all unit-tests without hot-reloading.
-
-### `npm run lint`
+### `yarn lint`
 
 Check for linting errors.
 
-### `npm run build`
+### `yarn build`
 
 Build the project for production.
 
-### `npm start`
+### `yarn start`
 
 Run the production build (Must be built first).
 
-### `npm start -- --env="name of env file" (default is production).`
+### `yarn start -- --env="name of env file" (default is production).`
 
 Run production build with a different env file.
 
 ## Additional Notes
 
-- If `npm run dev` gives you issues with bcrypt on MacOS you may need to run: `npm rebuild bcrypt --build-from-source`.
+- If `yarn dev` gives you issues with bcrypt on MacOS you may need to run: `npm rebuild bcrypt --build-from-source`.
