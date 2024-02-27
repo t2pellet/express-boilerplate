@@ -63,18 +63,14 @@
     "nodemon": "^3.0.3",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
+    "standard-version": "^9.5.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.3.3"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }
